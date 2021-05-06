@@ -8,7 +8,7 @@ This is a skeleton code with all the common code I (like to) use for Discord Bot
 * `ping`, `help` and `eval` commands
 
 ## Installation
-I will be sharing compressed artifacts of new releases every now and then, make sure to get those by going [https://github.com/TeraBaito/discord-bot-skeleton/releases]
+I will be sharing compressed artifacts of new releases every now and then, make sure to get those by going [here](https://github.com/TeraBaito/discord-bot-skeleton/releases)
 
 1. Unzip the file (you can safely remove `README.md` and `LICENSE.md`)
 1. Run `npm init` (`npm init -y` to skip prompts)
