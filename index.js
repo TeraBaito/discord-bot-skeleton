@@ -1,20 +1,8 @@
 // Modules
-const { Client, Collection } = require('discord.js');
+const Bot = require('./Bot');
 require('dotenv').config({ path: './.env'});
-const fs = require('fs');
 const chalk = require('chalk');
 const { stripIndents } = require('common-tags');
-
-const Bot = class extends Client {
-    constructor() {
-        super();
-
-        this.commands = new Collection();
-        this.aliases = new Collection();
-        this.categories = fs.readdirSync('./src/commands');
-    }
-};
-module.exports = Bot;
 
 // Client
 const bot = new Bot();
